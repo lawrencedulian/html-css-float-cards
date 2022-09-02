@@ -17,25 +17,26 @@ h1 {
     color: #E53170;
 }
 
-p {
+h2 {
     font-size: 1rem;
     text-align: center;
+    font-weight: 200;
 }
+
 body {
     background-color: white;
 }
 
 .container {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
 /* UTILITIES */
 .col {
-    width: calc(100% / 3);
+    width: calc(80% / 3);
     float: left;
     text-align: center;
-    margin: 50px;
 }
 
 .clearfix::after {
@@ -47,6 +48,7 @@ body {
 /* MAIN */
 /* Columns section */
 .column-section {
+    margin-top: 2em;
     margin-bottom: 2em;
 }
 
@@ -56,24 +58,36 @@ body {
 
 /* PROFILE BOXES */
 .profile {
-    width: 300px;
     background-color: #0f0e17;
+    margin: 5px;
+    display: inline-block;
+    text-align: left;
 }
 
-div>img{
+.profile img{
     float: left;
+}
+
+.name,.job {
+    color: white;
 }
 
 .name {
-    color: white;
-    font-size: 1.0rem;
-    float: left;
-    margin: 10px;
+    font-size: 1.2rem;
 }
 
 .job {
-    color: white;
-    font-size: 0.5rem;
-    float: left;
-    margin: 10px;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.email {
+    color: #1DA9E4;
+    font-size: 1rem;
+}
+
+.col p{
+    margin-left: 120px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
