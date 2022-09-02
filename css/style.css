@@ -34,7 +34,7 @@ body {
 
 /* UTILITIES */
 .col {
-    width: calc(80% / 3);
+    width: calc(100% / 3 - 20px);
     float: left;
     text-align: center;
 }
@@ -59,8 +59,7 @@ body {
 /* PROFILE BOXES */
 .profile {
     background-color: #0f0e17;
-    margin: 5px;
-    display: inline-block;
+    margin: 10px;
     text-align: left;
 }
 
